@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from "styled-components";
 import GraphikBold from "../font/GraphikBold.otf";
 import GraphikLight from "../font/GraphikLight.otf";
 import GraphikSemibold from "../font/GraphikSemibold.otf";

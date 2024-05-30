@@ -33,6 +33,7 @@ import {
   HeartIcon,
   StyledDesignDeveloperText,
 } from "./Footer.styled";
+import ArtbyRaff  from "../../../assets/index.js";
 
 export const Footer = () => {
   return (
@@ -44,10 +45,7 @@ export const Footer = () => {
               <StyledFooterLeft>
                 <StyledFooterBox>
                   <StyledFooterLogoWrapper>
-                    <img
-                      src="https://artbyraff.com/wp-content/uploads/2020/06/artbyraff-logo.png"
-                      alt="artbyrafflogo"
-                    />
+                    <img src={ArtbyRaff} alt="artbyrafflogo" />
                   </StyledFooterLogoWrapper>
                   <StyledFooterLinksWrapper>
                     <StyledFooterLink>

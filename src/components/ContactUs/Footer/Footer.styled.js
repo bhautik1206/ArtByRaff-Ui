@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { GlobalStyles } from "../../GlobalStyle.styled";
 import { FaHeart } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
