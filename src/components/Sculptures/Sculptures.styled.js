@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { GlobalStyles } from "../GlobalStyle.styled";
 
 export const StyledSection = styled.section`
   margin: 0;
