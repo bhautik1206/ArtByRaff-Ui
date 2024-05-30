@@ -51,7 +51,7 @@ export const Sculptures = () => {
                         <StyledProductImageWrapper>
                           <StyledProductImageLink href="https://artbyraff.com/product/untitled-4/">
                             <StyledProductImage
-                              src="https://artbyraff.com/wp-content/uploads/2022/04/Layer-2-768x961.png"
+                              src="https://falstaff.b-cdn.net/storage/sites/2/2021/01/LIVING_ArtbyRaff_8.jpg"
                               alt="sculpture-image"
                             />
                           </StyledProductImageLink>
@@ -77,7 +77,7 @@ export const Sculptures = () => {
                         <StyledProductImageWrapper>
                           <StyledProductImageLink href="https://artbyraff.com/product/warhol-basquiat-table-1-of-1/">
                             <StyledProductImage
-                              src="https://artbyraff.com/wp-content/uploads/2021/01/IMG_5905-768x1024.jpg"
+                              src="https://falstaff.b-cdn.net/storage/sites/2/2021/01/LIVING_ArtbyRaff_7.jpg"
                               alt="sculpture-image"
                             />
                           </StyledProductImageLink>

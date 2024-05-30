@@ -17,6 +17,7 @@ import {
   InstagramIcon,
 } from "./FullNavbar.styled";
 import { Link } from "react-router-dom";
+import { ArtbyRaff } from "../../assets";
 
 export const FullNavbar = () => {
   return (
@@ -34,7 +35,7 @@ export const FullNavbar = () => {
             </StyledCloseWrapper>
             <StyledImageWrapper>
               <StyledImage
-                src="https://artbyraff.com/wp-content/uploads/2020/06/artbyraff-logo.png"
+                src={ArtbyRaff}
                 alt="art-by-raff-logo"
               />
             </StyledImageWrapper>

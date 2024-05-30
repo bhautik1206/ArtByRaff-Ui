@@ -51,7 +51,7 @@ export function Navbar() {
               </Link>
               <StyledLogoInner>
                 <StyledLogo>
-                  <StyledLogoImage src="https://artbyraff.com/wp-content/uploads/2020/06/artbyraff-logo.png"></StyledLogoImage>
+                  <StyledLogoImage >Art By Raff</StyledLogoImage>
                 </StyledLogo>
               </StyledLogoInner>
               <StyledCartSection>

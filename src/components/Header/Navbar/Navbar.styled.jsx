@@ -64,10 +64,16 @@ export const StyledLogo = styled.div`
   max-width: 100%;
 `;
 
-export const StyledLogoImage = styled.img`
+export const StyledLogoImage = styled.div`
   cursor: pointer;
+  font-family: "Graphik-Bold";
+  font-size: 42px;
+  margin:12px 0 0 0;
   max-width: 240px;
   width: 100%;
+  @media screen and (max-width:767px) {
+    font-size:28px;
+  }
 `;
 
 export const StyledCartSection = styled.div`

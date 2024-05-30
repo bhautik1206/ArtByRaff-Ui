@@ -32,8 +32,9 @@ export const StyledWrapper = styled.div``;
 
 export const StyledInnerWrapper = styled.div`
   display: flex;
-  flex-wrap: wrap;
-  margin: 0 -15px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
 `;
 
 export const StyledLeftAboutMe = styled.div`

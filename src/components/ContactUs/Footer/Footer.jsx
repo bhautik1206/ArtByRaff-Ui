@@ -33,7 +33,7 @@ import {
   HeartIcon,
   StyledDesignDeveloperText,
 } from "./Footer.styled";
-import ArtbyRaff  from "../../../assets/index.js";
+import { ArtbyRaff } from "../../../assets";
 
 export const Footer = () => {
   return (

@@ -1,3 +1,5 @@
+import { Art } from "../../assets";
+
 export const SvgLink = [
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -38,9 +40,8 @@ export const SvgLink = [
 export const Data = [
   {
     id: "1",
-    dlink: "https://artbyraff.com/product/untitled-202iii-series-9/",
-    dproductimage:
-      "https://artbyraff.com/wp-content/uploads/2023/06/image00008-768x764.jpeg",
+    dlink: Art,
+    dproductimage: Art,
     dimagelink: "https://artbyraff.com/product/untitled-202iii-series-9/",
     dproductname: "Untitled 202III - Series",
     dprice: "Sold",
@@ -51,8 +52,7 @@ export const Data = [
   {
     id: "2",
     dlink: "https://artbyraff.com/product/untitled-202iii-series-8/",
-    dproductimage:
-      "https://artbyraff.com/wp-content/uploads/2023/06/image00007-768x768.jpeg",
+    dproductimage: Art,
     dimagelink: "https://artbyraff.com/product/untitled-202iii-series-8/",
     dproductname: "Untitled 202III - Series",
     dprice: "SOLD",
@@ -62,8 +62,7 @@ export const Data = [
   {
     id: "3",
     dlink: "https://artbyraff.com/product/untitled-202iii-series-7/",
-    dproductimage:
-      "https://artbyraff.com/wp-content/uploads/2023/06/image00006-768x968.jpeg",
+    dproductimage: Art,
     dimagelink: "https://artbyraff.com/product/untitled-202iii-series-7/",
     dproductname: "UNTITLED 202III - SERIES",
     dprice: "€3,250.00",
@@ -74,8 +73,7 @@ export const Data = [
   {
     id: "4",
     dlink: "https://artbyraff.com/product/untitled-202iii-series-6/",
-    dproductimage:
-      "https://artbyraff.com/wp-content/uploads/2023/06/image00005-768x958.jpeg",
+    dproductimage: Art,
     dimagelink: "https://artbyraff.com/product/untitled-202iii-series-6/",
     dproductname: "UNTITLED 202III – SERIES",
     dprice: "€3,250.00",
@@ -86,8 +84,7 @@ export const Data = [
   {
     id: "5",
     dlink: "https://artbyraff.com/product/untitled-202iii-series-5/",
-    dproductimage:
-      "https://artbyraff.com/wp-content/uploads/2023/06/image00004-768x972.jpeg",
+    dproductimage: Art,
     dimagelink: "https://artbyraff.com/product/untitled-202iii-series-5/",
     dproductname: "UNTITLED 202III – SERIES",
     dprice: "SOLD",
@@ -97,8 +94,7 @@ export const Data = [
   {
     id: "6",
     dlink: "https://artbyraff.com/product/untitled-202iii-series-4/",
-    dproductimage:
-      "https://artbyraff.com/wp-content/uploads/2023/06/image00003-768x971.jpeg",
+    dproductimage: Art,
     dimagelink: "https://artbyraff.com/product/untitled-202iii-series-4/",
     dproductname: "UNTITLED 202III – SERIES",
     dprice: "SOLD",
@@ -108,8 +104,7 @@ export const Data = [
   {
     id: "7",
     dlink: "https://artbyraff.com/product/untitled-202iii-series-3/",
-    dproductimage:
-      "https://artbyraff.com/wp-content/uploads/2023/06/image00002-768x955.jpeg",
+    dproductimage: Art,
     dimagelink: "https://artbyraff.com/product/untitled-202iii-series-3/",
     dproductname: "UNTITLED 202III – SERIES",
     dprice: "€3,250.00",
@@ -120,8 +115,7 @@ export const Data = [
   {
     id: "8",
     dlink: "https://artbyraff.com/product/untitled-202iii-series-2/",
-    dproductimage:
-      "https://artbyraff.com/wp-content/uploads/2023/06/image00001-768x958.jpeg",
+    dproductimage: Art,
     dimagelink: "https://artbyraff.com/product/untitled-202iii-series-2/",
     dproductname: "UNTITLED 202III – SERIES",
     dprice: "€3,250.00",
@@ -132,8 +126,7 @@ export const Data = [
   {
     id: "9",
     dlink: "https://artbyraff.com/product/untitled-202iii-series-1/",
-    dproductimage:
-      "https://artbyraff.com/wp-content/uploads/2023/06/change-768x968.jpeg",
+    dproductimage: Art,
     dimagelink: "https://artbyraff.com/product/untitled-202iii-series-1/",
     dproductname: "UNTITLED 202III – SERIES",
     dprice: "€3,250.00",
@@ -147,8 +140,7 @@ export const SData = [
   {
     id: "1",
     dlink: "https://artbyraff.com/product/untitled-4/",
-    dproductimage:
-      "https://artbyraff.com/wp-content/uploads/2022/04/Layer-2-768x961.png",
+    dproductimage: Art,
     dimagelink: "https://artbyraff.com/product/untitled-4/",
     dproductname: "“ UNTITLED “",
     dprice: "€1,300.00",
@@ -157,8 +149,7 @@ export const SData = [
   {
     id: "2",
     dlink: "https://artbyraff.com/product/warhol-basquiat-table-1-of-1/",
-    dproductimage:
-      "https://artbyraff.com/wp-content/uploads/2021/01/IMG_5905-768x1024.jpg",
+    dproductimage: Art,
     dimagelink: "https://artbyraff.com/product/warhol-basquiat-table-1-of-1/",
     dproductname: "“ WARHOL & BASQUIAT “ -TABLE 1 OF 1",
     dprice: "",
