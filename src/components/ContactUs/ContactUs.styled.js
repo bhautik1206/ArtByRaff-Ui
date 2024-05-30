@@ -1,5 +1,4 @@
 import styled, { css } from "styled-components";
-import { GlobalStyles } from "../GlobalStyle.styled";
 
 export const StyledCommonInput = css`
   background: transparent;

@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { GlobalStyles } from "../GlobalStyle.styled";
 
 export const StyledSection = styled.div`
   display: flex;
