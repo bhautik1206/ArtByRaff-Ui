@@ -33,7 +33,7 @@ import {
   HeartIcon,
   StyledDesignDeveloperText,
 } from "./Footer.styled";
-import ArtbyRaff  from "../../../assets/index.js";
+import { ArtbyRaff } from "../../../assets";
 
 export const Footer = () => {
   return (
@@ -106,7 +106,7 @@ export const Footer = () => {
             <StyledCopyWriteTextWrapper>
               <HeartIcon />
               <StyledDesignDeveloperText>
-                Designed and developed by Appsandmore24
+                Designed and developed by Bhautik
               </StyledDesignDeveloperText>
             </StyledCopyWriteTextWrapper>
           </StyledCopyWriteWrapper>

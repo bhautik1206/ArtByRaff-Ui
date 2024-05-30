@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Mainlogo } from "../../assets";
 
 export const StyledSection = styled.section`
   padding: 0;
@@ -25,13 +26,13 @@ export const StyledInner = styled.div`
 `;
 
 export const StyledBanner = styled.div`
-  background: url("https://artbyraff.com/wp-content/uploads/2021/03/820870D6-04C6-4081-B048-A2B6C3FBAE51.jpg")
+  background: url(${Mainlogo})
     center/cover;
   width: 100%;
   height: 100%;
 
   @media screen and (max-width: 991px) {
-    background: center/cover;
+    background: url(${Mainlogo}) center/cover;
   }
 `;
 
@@ -41,9 +42,12 @@ export const StyledAboutWrapper = styled.div`
   justify-content: center;
   height: 773px;
   text-decoration: none;
+  :link{
+    text-decoration: none !important;
+  }
 `;
 
-export const StyledAbout = styled.a`
+export const StyledAbout = styled.span`
   font-family: "Graphik-Black";
   font-size: 13px;
   font-weight: bold;

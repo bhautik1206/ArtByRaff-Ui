@@ -13,6 +13,7 @@ import {
   StyledSignatureImage,
 } from "./AboutMe.styled";
 import { Navbar } from "../Header/Navbar/Navbar";
+import { ArtbyRaff, Raffimage } from "../../assets";
 
 export const AboutMe = () => {
   return (
@@ -26,10 +27,7 @@ export const AboutMe = () => {
           <br />
           <StyledInnerWrapper>
             <StyledLeftAboutMe>
-              <StyledAboutMeImage
-                src="https://artbyraff.com/wp-content/uploads/2020/06/aboutImage.png"
-                alt="about-image"
-              />
+              <StyledAboutMeImage src={Raffimage} alt="about-image" />
             </StyledLeftAboutMe>
             <StyledRightAboutMe>
               <div>
@@ -55,7 +53,7 @@ export const AboutMe = () => {
                   <StyledSignature>Raffaello Djordjevic</StyledSignature>
                   <div>
                     <StyledSignatureImage
-                      src="https://artbyraff.com/wp-content/uploads/2020/07/logo.png"
+                      src={ArtbyRaff}
                       alt="signature-Raffaello"
                     />
                   </div>
